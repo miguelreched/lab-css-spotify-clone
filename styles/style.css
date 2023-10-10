@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+nav li {
+    padding-left: 10px;
+    align-items: center;
+}
+
+nav img {
+    width: 15%;
+    padding: 5px ;
+}
+
+.botones {
+    float: right;
+}
+
+header {
+    color: white;
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-size: cover;
+    display: block;
+    width: 100%;
+}
+
+.texto-header h1 {
+    font-size: 50px;   
+}
+
+.texto-header {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor-recursos h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container div {
+    text-align: center;
+    align-items: center;
+    padding: 5px 40px;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+} 
+
+.container h4 {
+    color: #00B172 ;
+}
+
+.contenedor-verde {
+    background-color: #00B172;
+    max-width: 100%;
+    max-height: 600px;
+    position: relative;
+    ;
+ 
+}
+
+.contenedor-verde h2{
+    color: white;
+    text-decoration: underline;
+    padding: 50px 50px;
+}
+
+.contenedor-verde h3{
+    color: white;
+    padding: 0 50px;
+    font-weight: bold;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.contenedor-verde p {
+    padding: 0 0 20px 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.logoblanco img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+   
+   /* He hecho 200 pruebas, necesito explicación*/
+    /* align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    text-align: center; 
+    width: 100px;
+    margin: auto; 
+    vertical-align: middle;
+    justify-content: center; */ 
+}
+
+.image-kayne img{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    margin-left: 300px;
+    width: 280px;
+    height: auto;
+    float: left;
+    justify-content: flex-end;
+    
+  
+}
+
